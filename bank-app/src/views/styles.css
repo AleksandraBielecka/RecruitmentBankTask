@@ -1,0 +1,38 @@
+.balanceFiltersWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 780px){
+    .balanceFiltersWrapper{
+    flex-flow: column-reverse;
+    display: flex;
+}}
+.formInput{
+    margin: 5px 30px;
+}
+.boxWrapper{
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+.customTable{
+    margin-top: 60px;
+}
+.leftSide{
+    display: grid;
+    align-content: space-between;
+}
+.filter{
+    display: inline-flex;
+    margin: 0px 20%;
+}
+.filterInput{
+    margin-right: 10px;
+    min-width: 50%;
+}
+.mg-tp30{
+    margin-top: 30px;
+}
+.custom-btn{
+    background: lightgray;
+    margin: 20px;
+}
